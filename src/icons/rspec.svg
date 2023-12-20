@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rspec</title>
+    <g id="rspec" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <polygon id="Path" stroke="#D20F39" stroke-linejoin="round" points="7.99956454 12.5 12.5 7 10.4980469 4.5 5.5 4.5 3.5 7"></polygon>
+        <path d="M9.00491578,1.57720916 C12.1175987,2.06028674 14.5,4.75192355 14.5,8 C14.5,8.82602009 14.3459209,9.61605308 14.0649356,10.3429262 M13.0603489,12.079922 C11.8688101,13.5559344 10.0446542,14.5 8,14.5 C5.95534581,14.5 4.13118994,13.5559344 2.93965115,12.079922 M1.93506439,10.3429262 C1.65407907,9.61605308 1.5,8.82602009 1.5,8 C1.5,4.75157516 3.88291238,2.05970933 6.99608586,1.57705379" id="Shape" stroke="#04A5E5"></path>
+    </g>
+</svg>

@@ -148,7 +148,7 @@ export const extensions: IconMap = {
   h: ['h'],
   haml: ['haml'],
   handlebars: ['hbs', 'mustache'],
-  haskell: ['hs'],
+  haskell: ['hs', 'lhs'],
   haxe: ['hx', 'hxml'],
   hcl: ['hcl'],
   hjson: ['hjson'],

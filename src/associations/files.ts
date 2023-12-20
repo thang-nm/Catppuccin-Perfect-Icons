@@ -63,6 +63,7 @@ export const files: IconMap = {
     'cabal.project.local',
   ],
   caddy: ['Caddyfile'],
+  cakephp: ['bin/cake'],
   capacitor: ['capacitor.config.json', 'capacitor.config.ts'],
   cargo: ['cargo.toml'],
   cargo_lock: ['cargo.lock'],
@@ -507,6 +508,7 @@ export const files: IconMap = {
     'panda.config.js',
   ],
   parse: ['.parse.local', '.parse.project'],
+  phpstan: ['phpstan.neon', 'phpstan.neon.dist', 'phpstan.dist.neon'],
   phpunit: [
     '.phpunit.result.cache',
     '.phpunit-watcher.yml',
@@ -624,6 +626,7 @@ export const files: IconMap = {
   ruby: ['.ruby-version'],
   ruby_gem: ['gemfile'],
   ruby_gem_lock: ['gemfile.lock'],
+  rspec: ['.rspec'],
   semantic_release: [
     '.releaserc',
     '.releaserc.yaml',
