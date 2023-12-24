@@ -2,9 +2,6 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>haskell</title>
     <g id="haskell" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="12.5" y1="4.5" x2="15.5" y2="4.5" id="Line" stroke="#8839EF"></line>
-        <line x1="14" y1="7.5" x2="15.5" y2="7.5" id="Line" stroke="#8839EF"></line>
-        <polygon id="Path" stroke="#8839EF" points="5.5 13.5 8 8.49992684 5.5 3.5 8 3.5 13.6026331 13.4998537 11.0689026 13.4998537 9.55131655 10.5823395 8 13.5"></polygon>
-        <polygon id="Path" stroke="#8839EF" points="0.5 13.4998537 3 8.49992684 0.5 3.5 3 3.5 5.5 8.50007316 3 13.4997073"></polygon>
+        <path d="M12.5,4.5 L15.5,4.5 M14,7.5 L15.5,7.5 M5.5,13.5 L8,8.49992684 L5.5,3.5 L8,3.5 L13.6026331,13.4998537 L11.0689026,13.4998537 L9.55131655,10.5823395 L8,13.5 L5.5,13.5 Z M0.5,13.4998537 L3,8.49992684 L0.5,3.5 L3,3.5 L5.5,8.50007316 L3,13.4997073 L0.5,13.4998537 Z" id="Combined-Shape" stroke="#8839EF"></path>
     </g>
 </svg>

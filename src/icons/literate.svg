@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>literate</title>
+    <g id="literate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12.5,4.5 L15.5,4.5 M14,7.5 L15.5,7.5 M5.5,13.5 L8,8.49992684 L5.5,3.5 L8,3.5 L13.6026331,13.4998537 L11.0689026,13.4998537 L9.55131655,10.5823395 L8,13.5 L5.5,13.5 Z M0.5,13.4998537 L3,8.49992684 L0.5,3.5 L3,3.5 L5.5,8.50007316 L3,13.4997073 L0.5,13.4998537 Z" id="Combined-Shape" stroke="#4C4F69"></path>
+    </g>
+</svg>

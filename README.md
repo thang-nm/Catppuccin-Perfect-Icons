@@ -1,9 +1,7 @@
-<h3 align="center">
+<h1 align="center">
   <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="160" alt="Logo"/><br/>
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-  <a href="https://github.com/thang-nm/Catppuccin-Perfect-Icons">Catppuccin Perfect Icons</a>
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-</h3>
+  <a href="https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons">Catppuccin Perfect Icons</a>
+</h1>
 
 <p align="center">
   Unofficial. Pixel perfect + more icons + new palettes
@@ -18,18 +16,96 @@
 </p>
 
 <p align="center">
+  <br />
+  ✨✨✨ Something NEW below! Scroll down for more! ✨✨✨
+  <br />
+</p>
+
+## 🏞️ Preview
+
+<br />
+
+<p align="center">
   <img width="640" src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons@2x.png?t=20230915">
 </p>
 
-## Usage
+## ⭐️ Customization
 
-1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons)
-2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd>
-3. Type in `> File Icon Theme` and press enter
-4. Select your flavor and press enter
-5. Enjoy!
+### 🚦 Before you continue
 
-&nbsp;
+Just keep in mind that I want to keep it simple and avoid using any JavaScript code. Therefore, I've created some commands to assist you in customization. The executable code is located in the `command/index.js` file, and you have the option to review it before execution. I am not liable for any issues that may arise.
+
+### Requirement
+
+- NodeJS (12+)
+
+- macOS (tested) / Linux (not tested yet) / Windows with Git Bash (not tested yet)
+
+- You need to rerun the command whenever there is an update.
+
+### Commands
+
+- Hide the arrows from folder icons
+
+  macOS / Linux:
+
+  ```
+  node ~/.vscode/extensions/thang-nm.cat*/command hide_arrow
+  ```
+
+  Windows:
+
+  ```
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - hide_arrow
+  ```
+
+- Show the arrows from folder icons
+
+  macOS / Linux:
+
+  ```
+  node ~/.vscode/extensions/thang-nm.cat*/command show_arrow
+  ```
+
+  Windows:
+
+  ```
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - show_arrow
+  ```
+
+- Hide the folder icons (Only use the arrows)
+
+  macOS / Linux:
+
+  ```
+  node ~/.vscode/extensions/thang-nm.cat*/command hide_folder
+  ```
+
+  Windows:
+
+  ```
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - hide_folder
+  ```
+
+- Show the folder icons (Back to original)
+
+  macOS / Linux:
+
+  ```
+  node ~/.vscode/extensions/thang-nm.cat*/command show_folder
+  ```
+
+  Windows:
+
+  ```
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - show_folder
+  ```
+
+_You can make aliases for those commands to make them easier to run._
+
+<br />
+<br />
+<br />
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.png"/>
