@@ -79,14 +79,11 @@ function mutate(callback) {
 }
 
 function extensionFolder() {
-  const extensionsPath = path.join(
-    os.homedir(),
-    ".vscode",
-    "extensions",
-    "extensions.json"
+  const extensionsPath = path.join(os.homedir(), ".vscode", "extensions");
+  const extensionsString = fs.readFileSync(
+    path.join(extensionsPath, "extensions.json")
   );
-  const extensionsString = fs.readFileSync(extensionsPath);
   const json = JSON.parse(extensionsString);
   const extension = json.find((ext) => ext.identifier.id === extensionId);
-  return extension.location.path;
+  return path.join(extensionsPath, extension.relativeLocation);
 }

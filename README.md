@@ -33,13 +33,15 @@
 
 ### 🚦 Before you continue
 
-Just keep in mind that I want to keep it simple and avoid using any JavaScript code. Therefore, I've created some commands to assist you in customization. The executable code is located in the `command/index.js` file, and you have the option to review it before execution. I am not liable for any issues that may arise.
+Just keep in mind that I want to keep it simple and avoid using any JavaScript code. Therefore, I've created some commands to assist you in customization. The executable code is located in the [command/index.js](https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js) file, and you have the option to review it before execution. I am not liable for any issues that may arise.
 
 ### Requirement
 
 - NodeJS (12+)
 
-- macOS (tested) / Linux (not tested yet) / Windows with Git Bash (not tested yet)
+- macOS / Linux / Windows with Git Bash
+
+- You need to restart (or reload) Vscode to see the changes.
 
 - You need to rerun the command whenever there is an update.
 
@@ -56,7 +58,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   Windows:
 
   ```
-  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - hide_arrow
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - hide_arrow
   ```
 
 - Show the arrows from folder icons
@@ -70,7 +72,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   Windows:
 
   ```
-  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - show_arrow
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - show_arrow
   ```
 
 - Hide the folder icons (Only use the arrows)
@@ -84,7 +86,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   Windows:
 
   ```
-  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - hide_folder
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - hide_folder
   ```
 
 - Show the folder icons (Back to original)
@@ -98,7 +100,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   Windows:
 
   ```
-  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - show_folder
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - show_folder
   ```
 
 _You can make aliases for those commands to make them easier to run._
