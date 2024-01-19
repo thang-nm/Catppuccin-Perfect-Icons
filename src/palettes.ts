@@ -2,6 +2,8 @@ import { type labels, variants } from '@catppuccin/palette'
 
 export type CattppucinVariant =
   | 'latte'
+  | 'frappe'
+  | 'macchiato'
   | 'mocha'
   | 'aura'
   | 'ayu'
@@ -12,6 +14,8 @@ export type CattppucinVariant =
 
 export const catppuccinVariants = [
   'latte',
+  'frappe',
+  'macchiato',
   'mocha',
   'aura',
   'ayu',
@@ -147,6 +151,8 @@ const dark: Partial<Record<CatppuccinColor, string>> = {
 
 export const varToHex: Record<CattppucinVariant, Partial<Record<string, string>>> = {
   latte: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.latte[label].hex }), {}),
+  frappe: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.frappe[label].hex }), {}),
+  macchiato: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.macchiato[label].hex }), {}),
   mocha: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.mocha[label].hex }), {}),
   aura: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: aura[label] }), {}),
   ayu: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: ayu[label] }), {}),
@@ -158,6 +164,8 @@ export const varToHex: Record<CattppucinVariant, Partial<Record<string, string>>
 
 export const hexToVar: Record<CattppucinVariant, Partial<Record<string, string>>> = {
   latte: Object.fromEntries(Object.entries(varToHex.latte).map(([label, hex]) => [hex, label])),
+  frappe: Object.fromEntries(Object.entries(varToHex.frappe).map(([label, hex]) => [hex, label])),
+  macchiato: Object.fromEntries(Object.entries(varToHex.macchiato).map(([label, hex]) => [hex, label])),
   mocha: Object.fromEntries(Object.entries(varToHex.mocha).map(([label, hex]) => [hex, label])),
   aura: Object.fromEntries(Object.entries(varToHex.aura).map(([label, hex]) => [hex, label])),
   ayu: Object.fromEntries(Object.entries(varToHex.ayu).map(([label, hex]) => [hex, label])),
@@ -169,6 +177,8 @@ export const hexToVar: Record<CattppucinVariant, Partial<Record<string, string>>
 
 export const cssVarStyleTags: Record<CattppucinVariant, string> = {
   latte: `\n<style>:root {${Object.entries(varToHex.latte).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
+  frappe: `\n<style>:root {${Object.entries(varToHex.frappe).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
+  macchiato: `\n<style>:root {${Object.entries(varToHex.macchiato).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   mocha: `\n<style>:root {${Object.entries(varToHex.mocha).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   aura: `\n<style>:root {${Object.entries(varToHex.aura).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   ayu: `\n<style>:root {${Object.entries(varToHex.ayu).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,

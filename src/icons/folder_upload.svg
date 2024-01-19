@@ -7,7 +7,7 @@
         </g>
         <g id="macos" stroke="#04A5E5">
             <line x1="9.5" y1="15.5" x2="13.5" y2="15.5" id="Line-6"></line>
-            <path d="M11.5,8.5 L11.5,13.5 M9.5,11.5 L11.5,13.5 L13.5,11.5" id="Combined-Shape" stroke-linejoin="round" transform="translate(11.5, 11) scale(1, -1) translate(-11.5, -11)"></path>
+            <path d="M11.5,9 L11.5,14 M9.5,12 L11.5,14 L13.5,12" id="Combined-Shape" stroke-linejoin="round" transform="translate(11.5, 11.5) scale(1, -1) translate(-11.5, -11.5)"></path>
         </g>
     </g>
 </svg>

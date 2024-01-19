@@ -16,7 +16,11 @@ switch (command) {
     setFolderHidden(true);
     break;
   case "show_folder":
+  case "revert":
     setFolderHidden(false);
+    break;
+  case "simple_folder":
+    setSimpleFolder();
     break;
   default:
     console.error("No command to run!");
@@ -34,31 +38,56 @@ function setArrowHidden(hidden) {
 
 function setFolderHidden(hidden) {
   mutate((json) => {
-    if (hidden && Object.keys(json.folderNames || {}).length) {
+    if (hidden) {
+      if (!Object.keys(json.folder_2 || {}).length) {
+        json.folder_2 = json.folder;
+        json.folderExpanded_2 = json.folderExpanded;
+        delete json.folder;
+        delete json.folderExpanded;
+      }
+      if (!Object.keys(json.folderNames_2 || {}).length) {
+        json.folderNames_2 = json.folderNames;
+        json.folderNamesExpanded_2 = json.folderNamesExpanded;
+        delete json.folderNames;
+        delete json.folderNamesExpanded;
+      }
       json.hidesExplorerArrows = false;
-      json.folder_2 = json.folder;
-      json.folderExpanded_2 = json.folderExpanded;
-      json.folderNames_2 = json.folderNames;
-      json.folderNamesExpanded_2 = json.folderNamesExpanded;
-      json.folderNames = {};
-      json.folderNamesExpanded = {};
-      delete json.folder;
-      delete json.folderExpanded;
       return json;
     }
-    if (!hidden && Object.keys(json.folderNames_2 || {}).length) {
-      json.hidesExplorerArrows = false;
+
+    if (Object.keys(json.folder_2 || {}).length) {
       json.folder = json.folder_2;
       json.folderExpanded = json.folderExpanded_2;
-      json.folderNames = json.folderNames_2;
-      json.folderNamesExpanded = json.folderNamesExpanded_2;
       delete json.folder_2;
       delete json.folderExpanded_2;
+    }
+    if (Object.keys(json.folderNames_2 || {}).length) {
+      json.folderNames = json.folderNames_2;
+      json.folderNamesExpanded = json.folderNamesExpanded_2;
       delete json.folderNames_2;
       delete json.folderNamesExpanded_2;
-      return json;
     }
-    return null;
+
+    json.hidesExplorerArrows = false;
+    return json;
+  });
+}
+
+function setSimpleFolder() {
+  mutate((json) => {
+    if (Object.keys(json.folderNames || {}).length) {
+      json.folderNames_2 = json.folderNames;
+      json.folderNamesExpanded_2 = json.folderNamesExpanded;
+    }
+    if (Object.keys(json.folder_2 || {}).length) {
+      json.folder = json.folder_2;
+      json.folderNames = json.folderNames_2;
+      delete json.folder_2;
+      delete json.folderNames_2;
+    }
+    delete json.folderNames;
+    delete json.folderNamesExpanded;
+    return json;
   });
 }
 

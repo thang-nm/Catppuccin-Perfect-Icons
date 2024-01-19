@@ -3,7 +3,7 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.30",
+  "version": "0.21.31",
   "description": "🌈 Unofficial. Pixel perfect + more icons + new palettes",
   "author": "thang-nm",
   "license": "MIT",
@@ -51,6 +51,16 @@
         "id": "catppuccin-perfect-latte",
         "label": "Catppuccin Perfect Latte",
         "path": "themes/latte/theme.json"
+      },
+      {
+        "id": "catppuccin-perfect-frappe",
+        "label": "Catppuccin Perfect Frappé",
+        "path": "themes/frappe/theme.json"
+      },
+      {
+        "id": "catppuccin-perfect-macchiato",
+        "label": "Catppuccin Perfect Macchiato",
+        "path": "themes/macchiato/theme.json"
       },
       {
         "id": "catppuccin-perfect-aura",
