@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>helm</title>
-    <g id="helm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <path d="M3.5,13 C4.48264439,11.8759214 6.51865897,11.500852 7.99903513,11.5 C9.47937892,11.4991318 11.5160906,11.8771065 12.5,13" id="Path" stroke="#1E66F5" stroke-linejoin="round" transform="translate(8, 12.25) scale(-1, 1) rotate(-180) translate(-8, -12.25)"></path>
-        <line x1="8" y1="13" x2="8" y2="15.5" id="Path" stroke="#1E66F5" stroke-linejoin="round"></line>
-        <line x1="4" y1="12.5" x2="3" y2="14" id="Path" stroke="#1E66F5" stroke-linejoin="round"></line>
-        <line x1="12" y1="12.5" x2="13" y2="14" id="Path" stroke="#1E66F5" stroke-linejoin="round"></line>
-        <path d="M3.5,4.49999161 C4.48264439,3.37591994 6.51865897,3.00085051 7.99903513,2.99999161 C9.47937892,2.99913029 11.5160906,3.37710496 12.5,4.49999161" id="Path" stroke="#1E66F5" stroke-linejoin="round"></path>
-        <line x1="8" y1="3" x2="8" y2="0.5" id="Path" stroke="#1E66F5" stroke-linejoin="round"></line>
-        <line x1="4" y1="3.5" x2="3" y2="2" id="Path" stroke="#1E66F5" stroke-linejoin="round"></line>
-        <line x1="12" y1="3.5" x2="13" y2="2" id="Path" stroke="#1E66F5" stroke-linejoin="round"></line>
-        <polyline id="Line" stroke="#1E66F5" stroke-linejoin="round" points="14.5 9.5 14.5 6.5 13 8 11.5 6.5 11.5 9.5"></polyline>
-        <polyline id="Line-2" stroke="#1E66F5" stroke-linejoin="round" points="8.5 6.5 8.5 9.5 9.99670452 9.5"></polyline>
-        <path d="M7,6.5 L5.5,6.5 L5.5,9.5 L7,9.5 M5.5,8 L6.5,8" id="E" stroke="#1E66F5" stroke-linejoin="round"></path>
-        <path d="M1.5,6.5 L1.5,9.5 M1.5,7.5 L3.5,7.5 M3.5,6.5 L3.5,9.5" id="H" stroke="#1E66F5"></path>
+    <g id="helm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g transform="translate(1.5, 0.5)" id="Combined-Shape" stroke="#4C4F69">
+            <path d="M2,11.0000015 C2.98264439,12.1240801 5.01865897,12.4991495 6.49903513,12.5000015 C7.97937892,12.5008697 10.0160906,12.122895 11,11.0000015 M6.5,12.5 L6.5,15 M2.5,12 L1.5,13.5 M10.5,12 L11.5,13.5 M2,3.99999161 C2.98264439,2.87591994 5.01865897,2.50085051 6.49903513,2.49999161 C7.97937892,2.49913029 10.0160906,2.87710496 11,3.99999161 M6.5,2.5 L6.5,0 M2.5,3 L1.5,1.5 M10.5,3 L11.5,1.5" stroke-linecap="round"></path>
+            <path d="M13,9.5 L13,6 L11.5,7.5 L10,6 L10,9.5 M7,5.5 L7,9 L8.49670452,9 M5.5,6 L4,6 L4,9 L5.5,9 M4,7.5 L5.5,7.5 M0,5.5 L0,9.5 M0,7 L2,7 M2,5.5 L2,9.5"></path>
+        </g>
     </g>
 </svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chart</title>
+    <g id="chart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="helm" transform="translate(1.5, 0.5)" stroke="#1E66F5">
+            <path d="M2,11.0000015 C2.98264439,12.1240801 5.01865897,12.4991495 6.49903513,12.5000015 C7.97937892,12.5008697 10.0160906,12.122895 11,11.0000015 M6.5,12.5 L6.5,15 M2.5,12 L1.5,13.5 M10.5,12 L11.5,13.5 M2,3.99999161 C2.98264439,2.87591994 5.01865897,2.50085051 6.49903513,2.49999161 C7.97937892,2.49913029 10.0160906,2.87710496 11,3.99999161 M6.5,2.5 L6.5,0 M2.5,3 L1.5,1.5 M10.5,3 L11.5,1.5" id="Combined-Shape" stroke-linecap="round"></path>
+            <path d="M13,9.5 L13,6 L11.5,7.5 L10,6 L10,9.5 M7,5.5 L7,9 L8.49670452,9 M5.5,6 L4,6 L4,9 L5.5,9 M4,7.5 L5.5,7.5 M0,5.5 L0,9.5 M0,7 L2,7 M2,5.5 L2,9.5" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -61,20 +61,6 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - hide_arrow
   ```
 
-- Show the arrows from folder icons
-
-  macOS / Linux:
-
-  ```
-  node ~/.vscode/extensions/thang-nm.cat*/command show_arrow
-  ```
-
-  Windows:
-
-  ```
-  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - show_arrow
-  ```
-
 - Hide the folder icons (Only use the arrows)
 
   macOS / Linux:
@@ -89,18 +75,32 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - hide_folder
   ```
 
-- Show the folder icons (Back to original)
+- Use simple folder icon (One folder icon for all folders)
 
   macOS / Linux:
 
   ```
-  node ~/.vscode/extensions/thang-nm.cat*/command show_folder
+  node ~/.vscode/extensions/thang-nm.cat*/command simple_folder
   ```
 
   Windows:
 
   ```
-  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - show_folder
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - simple_folder
+  ```
+
+- Revert to original
+
+  macOS / Linux:
+
+  ```
+  node ~/.vscode/extensions/thang-nm.cat*/command revert
+  ```
+
+  Windows:
+
+  ```
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node.exe - revert
   ```
 
 _You can make aliases for those commands to make them easier to run._
