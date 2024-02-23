@@ -4,21 +4,15 @@
 </h1>
 
 <p align="center">
-  Unofficial. Pixel perfect + more icons + new palettes
+  Unofficial. Pixel perfect + more icons + more palettes
   <br />
   Look good on non-retina display. (<a target="_blank" href="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons.png">Preview ↗</a>)
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/src/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/palettes-8-_?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
+  <img src="https://img.shields.io/badge/palettes-10-_?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
   <img src="https://img.shields.io/visual-studio-marketplace/i/thang-nm.catppuccin-perfect-icons?colorA=363a4f&colorB=a6da95&style=for-the-badge">
-</p>
-
-<p align="center">
-  <br />
-  ✨✨✨ Something NEW below! Scroll down for more! ✨✨✨
-  <br />
 </p>
 
 ## 🏞️ Preview
@@ -31,9 +25,9 @@
 
 ## ⭐️ Customization
 
-### 🚦 Before you continue
+### 🚦 Be patient!
 
-Just keep in mind that I want to keep it simple and avoid using any JavaScript code. Therefore, I've created some commands to assist you in customization. The executable code is located in the [command/index.js](https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js) file, and you have the option to review it before execution. I am not liable for any issues that may arise.
+The options will arrive soon! Please use some commands instead.
 
 ### Requirement
 
@@ -52,7 +46,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   macOS / Linux:
 
   ```
-  node ~/.vscode/extensions/thang-nm.cat*/command hide_arrow
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - hide_arrow
   ```
 
   Windows:
@@ -66,7 +60,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   macOS / Linux:
 
   ```
-  node ~/.vscode/extensions/thang-nm.cat*/command hide_folder
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - hide_folder
   ```
 
   Windows:
@@ -80,7 +74,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   macOS / Linux:
 
   ```
-  node ~/.vscode/extensions/thang-nm.cat*/command simple_folder
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - simple_folder
   ```
 
   Windows:
@@ -94,7 +88,7 @@ Just keep in mind that I want to keep it simple and avoid using any JavaScript c
   macOS / Linux:
 
   ```
-  node ~/.vscode/extensions/thang-nm.cat*/command revert
+  curl -sL https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/command/index.js | node - revert
   ```
 
   Windows:

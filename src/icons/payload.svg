@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>payloadcms</title>
+    <g id="payloadcms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <polygon id="Line" stroke="#4C4F69" stroke-linecap="square" points="13.5 12.5 13.5 4.5 7.5 0.5 3.2495974 3.33360173 9.5 7.5 9.5 15.5"></polygon>
+        <polygon id="Line-2" stroke="#4C4F69" stroke-linecap="round" points="6.5 9.5 6.5 15.5 1.5 12.5"></polygon>
+    </g>
+</svg>

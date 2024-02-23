@@ -2,7 +2,7 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>eslint</title>
     <g id="eslint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M7.96361037,0.518384803 L14.4292969,4.28872908 L14.4621206,11.7740484 L8.03653064,15.4839952 L1.56980606,11.7118735 L1.53647242,4.22569564 L7.96361037,0.518384803 Z" id="Path" stroke="#8839EF" transform="translate(7.9993, 8.0012) rotate(30) translate(-7.9993, -8.0012)"></path>
-        <path d="M8,4.07367374 L11.5,6.04242374 L11.5,9.95757626 L8,11.9263263 L4.5,9.95757626 L4.5,6.04242374 L8,4.07367374 Z" id="Path" stroke="#8839EF"></path>
+        <polygon id="Polygon" stroke="#8839EF" stroke-linejoin="round" points="4.25 1.50480947 11.75 1.50480947 15.5 8 11.75 14.4951905 4.25 14.4951905 0.5 8"></polygon>
+        <path d="M8,4.07367374 L11.5,6.04242374 L11.5,9.95757626 L8,11.9263263 L4.5,9.95757626 L4.5,6.04242374 L8,4.07367374 Z" id="Path" stroke="#04A5E5"></path>
     </g>
 </svg>
