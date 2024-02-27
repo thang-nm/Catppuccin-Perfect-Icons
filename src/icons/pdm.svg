@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pdm</title>
+    <g id="pdm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.5,2 L10.5,12.25 M12.0014576,13.196994 L3.00235586,8.00136016 M1.50118324,8.86534226 L10.4968795,3.67167461" id="Combined-Shape" stroke="#8839EF"></path>
+        <g id="polygon" transform="translate(0.5, 0.5)" stroke="#8839EF" stroke-linejoin="round">
+            <polygon id="Polygon" points="7.5 0 13.9951905 3.75 13.9951905 11.25 7.5 15 1.00480947 11.25 1.00480947 3.75"></polygon>
+        </g>
+    </g>
+</svg>

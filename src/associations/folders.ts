@@ -240,6 +240,7 @@ export const folders: IconMap = {
   folder_nuxt: ['.nuxt', 'nuxt'],
   folder_packages: ['package', 'packages', 'pkg', 'pkgs'],
   folder_pdf: ['pdf', 'pdfs'],
+  folder_pdm: ['.pdm-plugins', '.pdm-build'],
   folder_php: ['php'],
   folder_playground: ['playground', 'playgrounds'],
   folder_plugins: [
