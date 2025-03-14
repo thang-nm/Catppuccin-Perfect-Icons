@@ -1,4 +1,31 @@
 <h1 align="center">
+  🌼 Introducing <a target="_blank" href="https://flow-icons.pages.dev">Flow Icons</a>
+</h1>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/preview_light.png">
+    <img width="640" src="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/preview.png">
+  </picture>
+</p>
+
+<p align="center">
+  First of all, thank you to everyone who has loved my Catppuccin Perfect version.
+  <br />
+  I apologize for not being able to continue updating it. However during the time I stopped updating, I put a lot of effort into creating my own icons, and I did it! I think this marks the end of my Catppuccin version. You might want to take a look.
+  <br />
+  <br />
+  <a target="_blank" href="https://flow-icons.pages.dev">
+    <img src="https://img.shields.io/badge/Check_it_out-Flow_Icons-blue?colorA=363a4f&colorB=c4b5fd&style=for-the-badge">
+  </a>
+  <br />
+</p>
+
+<br />
+<hr />
+<br />
+
+<h1 align="center">
   <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="160" alt="Logo"/><br/>
   <a href="https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons">Catppuccin Perfect Icons</a>
 </h1>
@@ -24,10 +51,6 @@
 </p>
 
 ## ⭐️ Customization
-
-### 🚦 Be patient!
-
-The options will arrive soon! Please use some commands instead.
 
 ### Requirement
 

@@ -577,6 +577,7 @@ export const files: IconMap = {
   postcss: [
     'postcss.config.js',
     'postcss.config.cjs',
+    'postcss.config.mjs',
     'postcss.config.ts',
     'postcss.config.cts',
     '.postcssrc.js',

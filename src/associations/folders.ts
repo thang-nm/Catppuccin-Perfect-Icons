@@ -31,6 +31,7 @@ export const folders: IconMap = {
     'measure',
     'measures',
     'measurement',
+    'benches',
   ],
   folder_azure_pipelines: ['.azure-pipelines', '.azure-pipelines-ci', 'azure-pipelines'],
   folder_cart: ['cart', 'shopping-cart', 'shopping', 'shop'],
