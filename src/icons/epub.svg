@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>epub</title>
+    <g id="epub" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12.6193263,3.37668748 C13.1633912,3.91973736 13.5,4.67055908 13.5,5.5 L13.5,10.5 C13.5,12.1568542 12.1568542,13.5 10.5,13.5 L5.5,13.5 C3.84314575,13.5 2.5,12.1568542 2.5,10.5 L2.5,5.5 C2.5,3.84314575 3.84314575,2.5 5.5,2.5 L8,2.5 L8,8" id="Path" stroke="#40A02B" transform="translate(8, 8) rotate(45) translate(-8, -8)"></path>
+    </g>
+</svg>

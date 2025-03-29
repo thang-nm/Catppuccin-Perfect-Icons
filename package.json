@@ -3,7 +3,7 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.32",
+  "version": "0.21.33",
   "description": "🌈 Unofficial. Pixel perfect + more icons + new palettes",
   "author": "thang-nm",
   "license": "MIT",
@@ -34,9 +34,6 @@
     "Themes"
   ],
   "icon": "logo.png",
-  "files": [
-    "dist"
-  ],
   "engines": {
     "vscode": "^1.69.0"
   },
